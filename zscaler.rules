@@ -119,5 +119,5 @@ alert any $HOME_NET any -> $EXTERNAL_NET any (msg:"[ZSCALER] Detected known Thre
 
 Do the dew
 
-
+Or will it?
 

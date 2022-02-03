@@ -119,7 +119,7 @@ alert any $HOME_NET any -> $EXTERNAL_NET any (msg:"[ZSCALER] Detected known Thre
 
 Do the dew
 
-Now will this cause an issue?
+Now will this cause an issue? It just might!
 
 
 

@@ -115,7 +115,13 @@ alert any $HOME_NET any -> $EXTERNAL_NET any (msg:"[ZSCALER] Detected known Malw
 # Mobile leakages is content! as triggers a lot 
 
 alert any $HOME_NET any -> $EXTERNAL_NET any (msg:"[ZSCALER] Detected known Threat Name"; content:!"cs5|3d|None"; parse_src_ip: 2; parse_dst_ip: 1; program: CEF; content: "Zscaler"; content:"act=Allowed"; content:!"Mobile Device information leakage"; content:!"Mobile PII Information Leakage"; default_dst_port: $HTTP_PORT; default_proto: tcp; xbits: set,exploit_attempt,track ip_src, expire 86400; classtype:trojan-activity; sid:5003198; rev:3;)
+<<<<<<< HEAD
 
 
 
-But is it really a test?
+
+
+Just amking a test.
+With that other update caus an issue?
+
+>>>>>>> 950d32293ee1ea362e97b84629ae7b21405b60fd

@@ -119,5 +119,7 @@ alert any $HOME_NET any -> $EXTERNAL_NET any (msg:"[ZSCALER] Detected known Thre
 
 Doing a barrel roll
 
+Now will this cause an issue?
+
 
 
